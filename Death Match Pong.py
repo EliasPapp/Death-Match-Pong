@@ -15,7 +15,7 @@ pygame.display.set_caption(Gname)
 font = pygame.font.SysFont('trebuchet MS', 32)
 font2 = pygame.font.SysFont('trebuchet MS', 45)
 font3 = pygame.font.SysFont('trebuchet MS', 23)
-FPS = 35
+FPS = 40
 fpsClock = pygame.time.Clock()
 world = b2.b2World((0, 0), True)
 
@@ -63,10 +63,10 @@ S4 = pygame.transform.rotate(S4, 90)
 Timer = False
 
 # Unalterable text
-Ver = font.render('Versão: 1.0', True, WHITE)
+Ver = font.render('VersÃ£o: 1.0', True, WHITE)
 Pla = font2.render('Jogadores', True, WHITE)
-Ins = font2.render('nstruções', True, WHITE)
-Cre = font2.render('réditos', True, WHITE)
+Ins = font2.render('nstruÃ§Ãµes', True, WHITE)
+Cre = font2.render('rÃ©ditos', True, WHITE)
 
 #Flags
 c = 0
